@@ -4,6 +4,7 @@ $config['port'] = "8889";
 $config['dictionary'] = "/";*/
 function getcookie($config,$zjh,$mm)
 {
+	if ($config['ip'] == "202.204.208.73" && $config['port'] == "8033") $mm = md5($mm,false);
 	$link = fsockopen($config['ip'],$config['port'],$errno,$errstr,30);
 	if (!$link) exit ( $errstr . " ==> " . $errno);
 	$seekcookie = 0;

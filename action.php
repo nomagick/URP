@@ -190,6 +190,13 @@ if ($_GET['zjh'] && $_GET['mm'] && $_GET['profile'] && $_GET['action'])
 	$config['dictionary'] = "/xfzzhjw/";
 	break;
 
+	case 26;
+	//首都师范大学
+	$config['ip'] = "202.204.208.73";//jzd.cnu.edu.cn:8033/
+	$config['port'] = "8033";
+	$config['dictionary'] = "/";
+	break;
+
 	default:
 	exit ("Profile Invalid, Program Quit. 学校信息无效，已终止执行。");
 	}
