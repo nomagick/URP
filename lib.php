@@ -64,7 +64,7 @@ if (!((stripos($backstr,"上课时间冲突",0)) || (stripos($backstr,"已经选
 
 function build_repick ($zjh,$mm,$profile,$kcid,$bjid,$backstr)
 {
-echo "<html><head><META HTTP-EQUIV=\"Refresh\" CONTENT=\"60; URL=action.php?zjh=$zjh&mm=$mm&profile=$profile&action=7&kcid=$kcid&bjid=$bjid\"><meta http-equiv=\"pragma\" content=\"no-cache\"></HEAD><body><h1>Operation Considered Unsuccessful , Retry After 60 Seconds.</h1><h2>未检测到选课成功迹象，60秒后重试。</h2></br>";
+echo "<html><head><META HTTP-EQUIV=\"Refresh\" CONTENT=\"10; URL=action.php?zjh=$zjh&mm=$mm&profile=$profile&action=7&kcid=$kcid&bjid=$bjid\"><meta http-equiv=\"pragma\" content=\"no-cache\"></HEAD><body><h1>Operation Considered Unsuccessful , Retry After 10 Seconds.</h1><h2>未检测到选课成功迹象，10秒后重试。</h2></br>";
 echo $backstr;
 }
 ?>
