@@ -198,9 +198,11 @@ if ($_GET['zjh'] && $_GET['mm'] && $_GET['profile'] && $_GET['action'])
 	break;
 	
 	case 27:
+	//河海大学文天学院
 	$config['ip'] = "121.251.88.224"; //jw.hhuwtian.edu.cn/
 	$config['port'] = "80";
 	$config['dictionary'] = "/";
+	break;
 	
 	default:
 	exit ("Profile Invalid, Program Quit. 学校信息无效，已终止执行。");
